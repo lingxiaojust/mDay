@@ -11,7 +11,7 @@ import 'ant-design-vue/dist/antd.css';
 //     worker.start()
   
 //   }
-// const app = createApp(App);
+const app = createApp(App);
 createApp(App).use(router).use(Antd).mount('#app')
 // app.use(Antd).mount('#app');
 // app.use(router).mount('#app');
