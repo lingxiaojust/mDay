@@ -1,6 +1,10 @@
 <script setup>
 import HelloWorld from './components/HelloWorld.vue'
+import List from './components/list.vue'
+import Home from './pages/Home.vue'
+import router from './router';
 </script>
+
 
 <template>
   <div>
@@ -12,6 +16,9 @@ import HelloWorld from './components/HelloWorld.vue'
     </a>
   </div>
   <HelloWorld msg="Vite + Vue" />
+  <list />
+  <Home />
+
 </template>
 
 <style scoped>
@@ -27,4 +34,5 @@ import HelloWorld from './components/HelloWorld.vue'
 .logo.vue:hover {
   filter: drop-shadow(0 0 2em #42b883aa);
 }
+
 </style>
